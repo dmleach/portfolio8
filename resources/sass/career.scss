@@ -1,0 +1,57 @@
+.job-header {
+    //border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    font-weight: bolder;
+    justify-content: space-between;
+    margin: 0.5em 0;
+    //padding: 0.5em;
+}
+
+.job-header-element {
+    //background-color: palevioletred;
+    margin: 0;
+}
+
+.job-title {
+    font-weight: bolder;
+}
+
+.job-dates {
+    text-align: right;
+}
+
+.job-details {
+    //background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em 0.5em 0;
+}
+
+.job-accomplishments {
+    //background-color: palevioletred;
+    flex-direction: column;
+    flex-basis: 65%;
+}
+
+.job-skills {
+    //background-color: paleturquoise;
+    flex-direction: column;
+    flex-grow: 2;
+    font-size: smaller;
+    text-align: right;
+}
+
+.job-skill {
+    margin-bottom: 0.5em;
+    //margin-top: 0.5em;
+}
+
+.job-skill-technology {
+    //font-weight: bolder;
+}
+
+.job-skill-version {
+    font-style: italic;
+}

@@ -2,6 +2,10 @@
 <head>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
+    @hasSection('css')
+        @yield('css')
+    @endif
+
     {{--  Bring the page title from resources/views/components/page-title  --}}
     <x-page-title></x-page-title>
 </head>

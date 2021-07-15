@@ -1,0 +1,46 @@
+.job-header {
+  display: flex;
+  flex-direction: row;
+  font-size: larger;
+  font-weight: bolder;
+  justify-content: space-between;
+  margin: 0.5em 0;
+}
+
+.job-header-element {
+  margin: 0;
+}
+
+.job-title {
+  font-weight: bolder;
+}
+
+.job-dates {
+  text-align: right;
+}
+
+.job-details {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5em 0.5em 0;
+}
+
+.job-accomplishments {
+  flex-direction: column;
+  flex-basis: 65%;
+}
+
+.job-skills {
+  flex-direction: column;
+  flex-grow: 2;
+  font-size: smaller;
+  text-align: right;
+}
+
+.job-skill {
+  margin-bottom: 0.5em;
+}
+
+.job-skill-version {
+  font-style: italic;
+}
