@@ -1,19 +1,20 @@
-<html>
+<html lang="en-US">
 <head>
-    <title>{{ config('app.name') }} @if (@isset($title)) @yield('title') @endif</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
+    {{--  Bring the page title from resources/views/components/page-title  --}}
+    <x-page-title></x-page-title>
 </head>
 
 <body>
-@section('nav')
-    <nav>
-        <a href="{{ url('/') }}">Home</a>
-        <a href="{{ url('/career') }}">Career</a>
-        <a href="{{ url('/projects') }}">Projects</a>
-    </nav>
-@show
+{{--  Bring the main menu from resources/views/components/main-menu  --}}
+<x-main-menu></x-main-menu>
 
-<div class="container">
+@hasSection('page-title')
+    <h1>@yield('page-title')</h1>
+@endif
+
+<div class="content-main">
     @yield('content')
 </div>
 </body>

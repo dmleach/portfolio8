@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Projects')
+@section('page-title', 'Projects')
 
 @section('content')
     <p>This is my projects content.</p>
