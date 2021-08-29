@@ -1,14 +1,17 @@
 body {
     font-family: Georgia, Times, serif;
-    margin: 1em;
+    padding: 1em;
 }
 
 div {
     margin: 0;
 }
 
+a,
+h1, h2, h3,
 p {
-    margin: 0 0 0.5em;
+    margin: 0;
+    padding: 0 0 0.5em;
 }
 
 .content-main {

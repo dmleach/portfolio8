@@ -1,0 +1,16 @@
+.projects-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.projects-list-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    width: 30%;
+}
+
+.projects-list-title {
+    font-size: larger;
+    font-weight: bolder;
+}

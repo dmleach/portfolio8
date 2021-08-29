@@ -5,13 +5,13 @@
     font-size: larger;
     font-weight: bolder;
     justify-content: space-between;
-    margin: 0.5em 0;
+    padding: 0.5em 0;
     //padding: 0.5em;
 }
 
 .job-header-element {
     //background-color: palevioletred;
-    margin: 0;
+    padding: 0;
 }
 
 .job-title {
@@ -44,8 +44,8 @@
 }
 
 .job-skill {
-    margin-bottom: 0.5em;
-    //margin-top: 0.5em;
+    padding-bottom: 0.5em;
+    //padding-top: 0.5em;
 }
 
 .job-skill-technology {
