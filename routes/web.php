@@ -19,3 +19,7 @@ Route::get('/', function () {
 
 Route::view('/career', 'career');
 Route::view('/projects', 'projects');
+
+Route::get('/projects/{projectName}',  function ($projectName = null) {
+    return view('project-details', ['projectName' => $projectName]);
+});

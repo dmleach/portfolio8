@@ -4,11 +4,11 @@
   font-size: larger;
   font-weight: bolder;
   justify-content: space-between;
-  margin: 0.5em 0;
+  padding: 0.5em 0;
 }
 
 .job-header-element {
-  margin: 0;
+  padding: 0;
 }
 
 .job-title {
@@ -38,7 +38,7 @@
 }
 
 .job-skill {
-  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .job-skill-version {

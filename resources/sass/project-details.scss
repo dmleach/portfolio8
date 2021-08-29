@@ -1,0 +1,29 @@
+.project-details {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em 0.5em 0;
+}
+
+.project-details-primary {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 65%;
+    padding: 0.5em;
+}
+
+.project-details-secondary {
+    display: flex;
+    flex-direction: column;
+    font-size: smaller;
+    padding: 0.5em;
+    text-align: right;
+}
+
+.project-details-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-details-technology-version {
+    font-style: italic;
+}
