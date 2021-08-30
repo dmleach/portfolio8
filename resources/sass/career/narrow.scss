@@ -1,0 +1,37 @@
+.job-header {
+    flex-direction: column;
+}
+
+.job-header-element {
+    font-weight: inherit;
+}
+
+.job-company {
+    font-weight: bolder;
+}
+
+.job-dates {
+    font-weight: inherit;
+    text-align: inherit;
+}
+
+.job-details {
+    flex-direction: column;
+}
+
+.job-skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: inherit;
+}
+
+.job-skills-header {
+    display: inherit;
+    font-weight: bolder;
+    padding-right: 1em;
+}
+
+.job-skill {
+    padding-right: 1em;
+}

@@ -15,9 +15,12 @@
     display: flex;
     flex-basis: 25%;
     flex-direction: column;
-    font-size: smaller;
     padding: 0.5em;
     text-align: right;
+}
+
+.project-details-secondary p {
+    font-size: smaller;
 }
 
 .project-details-links {
