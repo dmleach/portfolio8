@@ -1,8 +1,11 @@
 <html lang="en-US">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     @push('css')
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/page-footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/page-footer/standard.css') }}">
+        <link rel="stylesheet" media="screen and (max-width:500px)" href="{{ asset('css/page-footer/narrow.css') }}">
         <link rel="stylesheet" href="{{ asset('css/page-header.css') }}">
     @endpush
 

@@ -10,5 +10,6 @@
     "/css/projects/narrow.css": "/css/projects/narrow.css",
     "/css/projects/standard.css": "/css/projects/standard.css",
     "/css/page-header.css": "/css/page-header.css",
-    "/css/page-footer.css": "/css/page-footer.css"
+    "/css/page-footer/narrow.css": "/css/page-footer/narrow.css",
+    "/css/page-footer/standard.css": "/css/page-footer/standard.css"
 }
