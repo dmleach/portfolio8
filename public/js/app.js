@@ -19087,49 +19087,10 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 /***/ }),
 
-/***/ "./resources/sass/projects/standard.scss":
-/*!***********************************************!*\
-  !*** ./resources/sass/projects/standard.scss ***!
-  \***********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./resources/sass/projects/narrow.scss":
+/***/ "./resources/sass/project-details.scss":
 /*!*********************************************!*\
-  !*** ./resources/sass/projects/narrow.scss ***!
+  !*** ./resources/sass/project-details.scss ***!
   \*********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./resources/sass/project-details/standard.scss":
-/*!******************************************************!*\
-  !*** ./resources/sass/project-details/standard.scss ***!
-  \******************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./resources/sass/project-details/narrow.scss":
-/*!****************************************************!*\
-  !*** ./resources/sass/project-details/narrow.scss ***!
-  \****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19152,23 +19113,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/sass/career/standard.scss":
-/*!*********************************************!*\
-  !*** ./resources/sass/career/standard.scss ***!
-  \*********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./resources/sass/career/narrow.scss":
-/*!*******************************************!*\
-  !*** ./resources/sass/career/narrow.scss ***!
-  \*******************************************/
+/***/ "./resources/sass/career.scss":
+/*!************************************!*\
+  !*** ./resources/sass/career.scss ***!
+  \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19182,6 +19130,32 @@ __webpack_require__.r(__webpack_exports__);
 /*!*****************************************!*\
   !*** ./resources/sass/page-footer.scss ***!
   \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/sass/page-header.scss":
+/*!*****************************************!*\
+  !*** ./resources/sass/page-header.scss ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/sass/projects.scss":
+/*!**************************************!*\
+  !*** ./resources/sass/projects.scss ***!
+  \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19496,14 +19470,12 @@ process.umask = function() { return 0; };
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/app": 0,
+/******/ 			"css/projects": 0,
+/******/ 			"css/page-header": 0,
 /******/ 			"css/page-footer": 0,
-/******/ 			"css/career/narrow": 0,
-/******/ 			"css/career/standard": 0,
+/******/ 			"css/career": 0,
 /******/ 			"css/app": 0,
-/******/ 			"css/project-details/narrow": 0,
-/******/ 			"css/project-details/standard": 0,
-/******/ 			"css/projects/narrow": 0,
-/******/ 			"css/projects/standard": 0
+/******/ 			"css/project-details": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -19553,15 +19525,13 @@ process.umask = function() { return 0; };
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/page-footer","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/page-footer","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard"], () => (__webpack_require__("./resources/sass/app.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/page-footer","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard"], () => (__webpack_require__("./resources/sass/career/standard.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/page-footer","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard"], () => (__webpack_require__("./resources/sass/career/narrow.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/page-footer","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard"], () => (__webpack_require__("./resources/sass/page-footer.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/page-footer","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard"], () => (__webpack_require__("./resources/sass/projects/standard.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/page-footer","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard"], () => (__webpack_require__("./resources/sass/projects/narrow.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/page-footer","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard"], () => (__webpack_require__("./resources/sass/project-details/standard.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/page-footer","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard"], () => (__webpack_require__("./resources/sass/project-details/narrow.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/projects","css/page-header","css/page-footer","css/career","css/app","css/project-details"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/projects","css/page-header","css/page-footer","css/career","css/app","css/project-details"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/projects","css/page-header","css/page-footer","css/career","css/app","css/project-details"], () => (__webpack_require__("./resources/sass/career.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/projects","css/page-header","css/page-footer","css/career","css/app","css/project-details"], () => (__webpack_require__("./resources/sass/page-footer.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/projects","css/page-header","css/page-footer","css/career","css/app","css/project-details"], () => (__webpack_require__("./resources/sass/page-header.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/projects","css/page-header","css/page-footer","css/career","css/app","css/project-details"], () => (__webpack_require__("./resources/sass/projects.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/projects","css/page-header","css/page-footer","css/career","css/app","css/project-details"], () => (__webpack_require__("./resources/sass/project-details.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
