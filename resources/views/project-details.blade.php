@@ -1,8 +1,8 @@
 @extends('layouts.main')
 
-@section('css')
+@push('css')
     <link rel="stylesheet" href="{{ asset('css/project-details.css') }}">
-@endsection
+@endpush
 
 @php
     // Get the contents of the projects config file

@@ -2,9 +2,9 @@
 
 @section('page-title', 'Career')
 
-@section('css')
+@push('css')
     <link rel="stylesheet" href="{{ asset('css/career.css') }}">
-@endsection
+@endpush
 
 @section('content')
     @foreach (config('sitedata.career.jobs') as $job)

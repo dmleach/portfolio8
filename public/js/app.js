@@ -19113,6 +19113,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/page-footer.scss":
+/*!*****************************************!*\
+  !*** ./resources/sass/page-footer.scss ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/sass/projects.scss":
 /*!**************************************!*\
   !*** ./resources/sass/projects.scss ***!
@@ -19446,6 +19459,7 @@ process.umask = function() { return 0; };
 /******/ 			"/js/app": 0,
 /******/ 			"css/project-details": 0,
 /******/ 			"css/projects": 0,
+/******/ 			"css/page-footer": 0,
 /******/ 			"css/career": 0,
 /******/ 			"css/app": 0
 /******/ 		};
@@ -19497,11 +19511,12 @@ process.umask = function() { return 0; };
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/project-details","css/projects","css/career","css/app"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/project-details","css/projects","css/career","css/app"], () => (__webpack_require__("./resources/sass/app.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/project-details","css/projects","css/career","css/app"], () => (__webpack_require__("./resources/sass/career.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/project-details","css/projects","css/career","css/app"], () => (__webpack_require__("./resources/sass/projects.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/project-details","css/projects","css/career","css/app"], () => (__webpack_require__("./resources/sass/project-details.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/project-details","css/projects","css/page-footer","css/career","css/app"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/project-details","css/projects","css/page-footer","css/career","css/app"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/project-details","css/projects","css/page-footer","css/career","css/app"], () => (__webpack_require__("./resources/sass/career.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/project-details","css/projects","css/page-footer","css/career","css/app"], () => (__webpack_require__("./resources/sass/page-footer.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/project-details","css/projects","css/page-footer","css/career","css/app"], () => (__webpack_require__("./resources/sass/projects.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/project-details","css/projects","css/page-footer","css/career","css/app"], () => (__webpack_require__("./resources/sass/project-details.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
