@@ -16,6 +16,8 @@
 
                     @if (isset($job['start_date']) && isset($job['end_date']))
                         <p class="job-header-element job-dates">{{ date('F Y', $job['start_date']) }} to {{ date('F Y', $job['end_date']) }}</p>
+                    @elseif (isset($job['start_date']) && !isset($job['end_date']))
+                        <p class="job-header-element job-dates">{{ date('F Y', $job['start_date']) }} to present</p>
                     @endif
 
                     @if (isset($job['title']))

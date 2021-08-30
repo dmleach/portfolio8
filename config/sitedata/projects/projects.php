@@ -12,8 +12,8 @@ return [
             'Oddly, this is the first site I\'ve created that\'s responsive that didn\'t use a pre-made template. Responsiveness is just one of those things I never got the chance to really understand. Now that I see how to do it, I\'m surprised by how simple it is to create two different layouts that work well in tandem.',
         ],
         'technologies' => [
-            [ 'technology' => 'PHP', 'version' => '7.4' ],
-            [ 'technology' => 'Laravel', 'version' => '7' ],
+            [ 'technology' => 'PHP', 'version' => '8.0' ],
+            [ 'technology' => 'Laravel', 'version' => '8' ],
             [ 'technology' => 'CSS', 'version' => '3' ],
             [ 'technology' => 'Flexbox' ],
             [ 'technology' => 'Responsive web design'],
@@ -21,8 +21,8 @@ return [
             [ 'technology' => 'Ubuntu', 'version' => '20.04' ],
         ],
         'links' => [
-            'Github repository' => 'https://github.com/dmleach/portfolio',
-            'Kanboard' => 'https://kanboard.davedoeswork.com/public/board/95d8bcdfc34689d8ac9726bdb89b24bc1429c39c280b73bc871efd73b4d6',
+            'Github repository' => 'https://github.com/dmleach/portfolio8',
+            'Kanboard' => '/kanboard/public/board/95d8bcdfc34689d8ac9726bdb89b24bc1429c39c280b73bc871efd73b4d6',
         ]
     ],
     'scroops' => [
