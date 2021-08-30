@@ -1,9 +1,9 @@
 <html lang="en-US">
 <head>
-    {{--        <link rel="stylesheet" href="{{ asset('css/app.css') }}">--}}
     @push('css')
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('css/page-footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/page-header.css') }}">
     @endpush
 
     {{--  Render everything in the css stack, which will contain stylesheets pushed
@@ -15,12 +15,8 @@
 </head>
 
 <body>
-{{--  Bring the main menu from resources/views/components/main-menu  --}}
-<x-main-menu></x-main-menu>
-
-@hasSection('page-title')
-    <h1>@yield('page-title')</h1>
-@endif
+{{--  Bring the page header from resources/views/components/page-header  --}}
+<x-page-header></x-page-header>
 
 <div class="content-main">
     @yield('content')
