@@ -1,8 +1,11 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/project-details.css": "/css/project-details.css",
-    "/css/projects.css": "/css/projects.css",
     "/css/page-footer.css": "/css/page-footer.css",
-    "/css/career.css": "/css/career.css",
-    "/css/app.css": "/css/app.css"
+    "/css/career/narrow.css": "/css/career/narrow.css",
+    "/css/career/standard.css": "/css/career/standard.css",
+    "/css/app.css": "/css/app.css",
+    "/css/project-details/narrow.css": "/css/project-details/narrow.css",
+    "/css/project-details/standard.css": "/css/project-details/standard.css",
+    "/css/projects/narrow.css": "/css/projects/narrow.css",
+    "/css/projects/standard.css": "/css/projects/standard.css"
 }

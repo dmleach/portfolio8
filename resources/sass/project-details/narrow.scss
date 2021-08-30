@@ -1,0 +1,31 @@
+.project-details {
+    flex-direction: column;
+}
+
+.project-details h2 {
+    font-size: initial;
+}
+
+.project-details-secondary {
+    flex-basis: 100%;
+    padding: 0.5em;
+    text-align: inherit;
+}
+
+.project-details-header {
+    flex-basis: 100%;
+}
+
+.project-details-technologies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project-details-technology {
+    padding-right: 1em;
+}
+
+.project-details-links {
+    padding-top: 1em;
+}

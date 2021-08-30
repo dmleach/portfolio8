@@ -3,7 +3,8 @@
 @section('page-title', 'Projects')
 
 @push('css')
-    <link rel="stylesheet" href="{{ asset('css/projects.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/projects/standard.css') }}">
+    <link rel="stylesheet" media="screen and (max-width:480px)" href="{{ asset('css/projects/narrow.css') }}">
 @endpush
 
 @section('content')

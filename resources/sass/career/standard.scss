@@ -1,16 +1,14 @@
 .job-header {
-    //border: 1px solid;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     font-size: larger;
-    font-weight: bolder;
     justify-content: space-between;
     padding: 0.5em 0;
-    //padding: 0.5em;
 }
 
 .job-header-element {
-    //background-color: palevioletred;
+    font-weight: bolder;
     padding: 0;
 }
 
@@ -18,25 +16,27 @@
     font-weight: bolder;
 }
 
+.flexbox-break {
+    flex-basis: 100%;
+    height: 0;
+}
+
 .job-dates {
     text-align: right;
 }
 
 .job-details {
-    //background-color: lightgray;
     display: flex;
     flex-direction: row;
     padding: 0.5em 0.5em 0;
 }
 
 .job-accomplishments {
-    //background-color: palevioletred;
     flex-direction: column;
     flex-basis: 75%;
 }
 
 .job-skills {
-    //background-color: paleturquoise;
     flex-basis: 25%;
     flex-direction: column;
     flex-grow: 2;
@@ -44,13 +44,12 @@
     text-align: right;
 }
 
-.job-skill {
-    padding-bottom: 0.5em;
-    //padding-top: 0.5em;
+.job-skills-header {
+    display: none;
 }
 
-.job-skill-technology {
-    //font-weight: bolder;
+.job-skill {
+    padding-bottom: 0.5em;
 }
 
 .job-skill-version {

@@ -1,7 +1,8 @@
 @extends('layouts.main')
 
 @push('css')
-    <link rel="stylesheet" href="{{ asset('css/project-details.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/project-details/standard.css') }}">
+    <link rel="stylesheet" media="screen and (max-width:480px)" href="{{ asset('css/project-details/narrow.css') }}">
 @endpush
 
 @php
