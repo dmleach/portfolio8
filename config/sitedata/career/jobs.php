@@ -2,24 +2,45 @@
 
 return [
     [
+        'company' => 'Advantis Global',
+        'start_date' => strtotime('9/1/2020'),
+        'end_data' => null,
+        'title' => 'Software Engineer II contracted to Facebook',
+        'skills' => [
+            [ 'technology' => 'Hack (strongly-typed PHP)', 'version' => '4' ],
+            [ 'technology' => 'PHPUnit' ],
+            [ 'technology' => 'React' ],
+            [ 'technology' => 'Object-oriented programming' ],
+        ],
+        'accomplishments' => [
+            'Migrated video metrics from sunsetted system to new, more performant statistics engine',
+            'Improved test suite with more thorough and consistent coverage using computationally-generated test cases',
+        ],
+    ],
+    [
         'company' => 'Sporcle',
         'start_date' => strtotime('11/1/2018'),
         'end_date' => strtotime('1/1/2020'),
         'title' => 'Web and Salesforce Developer',
         'skills' => [
             [ 'technology' => 'PHP', 'version' => '7.2' ],
-            [ 'technology' => 'Redis', 'version' => '5' ],
             [ 'technology' => 'HTML', 'version' => '5' ],
             [ 'technology' => 'CSS', 'version' => '3' ],
-            [ 'technology' => 'SVG', ],
             [ 'technology' => 'Salesforce Apex', ],
-            [ 'technology' => 'Lightning Design', ],
+            [ 'technology' => 'SOQL', ],
+            [ 'technology' => 'Redis', 'version' => '5' ],
+            [ 'technology' => 'Lightning Design Components', ],
+            [ 'technology' => 'Salesforce custom objects', ],
             [ 'technology' => 'VisualForce' ],
+            [ 'technology' => 'REST API', ],
+            [ 'technology' => 'SVG', ],
+            [ 'technology' => 'Responsive web design', ],
         ],
         'accomplishments' => [
             'Maintained the world\'s largest trivia site',
-            'Created new desktop and mobile versions of website footer',
-            'Added new feature to the Sporcle Live host portal',
+            'Created new desktop and mobile versions of website footer, the first step of a major site redesign',
+            'Enhanced forms and pages on the Sporcle Live host portal',
+            'Added new features that improved the sales team\'s external communications and reduced workload',
             'Spearheaded growth of Salesforce Apex automated test suite from 600 to 2600 tests in ten months',
         ],
     ],
@@ -32,13 +53,17 @@ return [
             [ 'technology' => 'PHP', 'version' => '7.1' ],
             [ 'technology' => 'PHPUnit' ],
             [ 'technology' => 'Symfony', 'version' => '1' ],
+            [ 'technology' => 'Salesforce Apex', ],
+            [ 'technology' => 'SOQL', ],
             [ 'technology' => 'Object-oriented programming' ],
             [ 'technology' => 'Github' ],
+            [ 'technology' => 'Ant', ],
             [ 'technology' => 'Agile methodology' ],
         ],
         'accomplishments' => [
             'Developed and maintained Pardot, a marketing automation platform',
-            'Enhanced sales demo generation utilities',
+            'Created presentation database used in public launch of Wave Analytics (now B2B Marketing Analytics)',
+            'Maintained connector, used to synchronize data between Pardot and Salesforce',
             'Authored over 40 pull requests, reviewed over 170 pull requests, and tested over 50 pull requests',
             'Named Pardot MVP in November 2017 for innovations introduced as team scrum master',
         ],
@@ -73,6 +98,8 @@ return [
             [ 'technology' => 'Delphi', 'version' => '7' ],
             [ 'technology' => 'C#' ],
             [ 'technology' => 'Microsoft SQL Server' ],
+            [ 'technology' => 'SOAP' ],
+            [ 'technology' => 'Word OLE' ],
         ],
         'accomplishments' => [
             'Maintained a suite of applications used to retrieve and report background check information',
@@ -103,7 +130,7 @@ return [
         'company' => 'ADP Incorporated',
         'start_date' => strtotime('8/1/2007'),
         'end_date' => strtotime('5/1/2012'),
-        'title' => 'Senior Programmer Analyst',
+        'title' => 'Senior Software Analyst',
         'skills' => [
             [ 'technology' => 'Delphi', 'version' => '2007' ],
             [ 'technology' => 'Oracle', 'version' => '10g' ],
@@ -148,27 +175,50 @@ return [
     ],
     [
         'company' => 'CCH Incorporated',
+        'title' => 'Programmer Analyst',
         'start_date' => strtotime('10/1/2002'),
         'end_date' => strtotime('6/1/2004'),
+        'skills' => [
+            [ 'technology' => 'Delphi', 'version' => '7.0' ],
+            [ 'technology' => 'Crystal Reports', 'version' => '9.0' ],
+        ],
+        'accomplishments' => [
+            'Analyzed, developed and maintained a suite of accounting practice management software',
+            'Acted as a resource for Crystal Reports expertise for multiple divisions and locations of the company',
+        ],
     ],
     [
         'company' => 'Artisan Software Design',
+        'title' => 'Owner',
         'start_date' => strtotime('8/1/2001'),
         'end_date' => strtotime('10/1/2002'),
+        'accomplishments' => [
+            'Founded and managed a freelance software consulting practice',
+        ],
     ],
     [
         'company' => 'Columbia Ultimate Business Systems',
+        'title' => 'Delphi Developer',
         'start_date' => strtotime('9/1/2000'),
         'end_date' => strtotime('8/1/2001'),
+
     ],
     [
         'company' => 'ClickChoice.com',
+        'title' => 'Developer',
         'start_date' => strtotime('7/1/1999'),
         'end_date' => strtotime('8/1/2000'),
+        'accomplishments' => [
+            'Developed and maintained home internet filtering software',
+        ],
     ],
     [
         'company' => 'Computing Solutions',
+        'title' => 'Associate Developer',
         'start_date' => strtotime('6/1/1996'),
         'end_date' => strtotime('7/1/1999'),
+        'accomplishments' => [
+            'Designed and developed custom software for multiple small business clients',
+        ],
     ],
 ];
