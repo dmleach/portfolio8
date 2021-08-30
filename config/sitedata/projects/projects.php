@@ -22,7 +22,7 @@ return [
         ],
         'links' => [
             'Github repository' => 'https://github.com/dmleach/portfolio',
-            'Kanboard' => '/kanboard/public/board/95d8bcdfc34689d8ac9726bdb89b24bc1429c39c280b73bc871efd73b4d6',
+            'Kanboard' => 'https://kanboard.davedoeswork.com/public/board/95d8bcdfc34689d8ac9726bdb89b24bc1429c39c280b73bc871efd73b4d6',
         ]
     ],
     'scroops' => [
