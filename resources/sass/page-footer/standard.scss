@@ -2,11 +2,8 @@
     border-top: 1px solid;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding-top: 1em;
-}
-
-.page-footer-links {
-    margin-left: auto;
 }
 
 .page-footer-link {
