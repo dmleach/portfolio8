@@ -1,10 +1,14 @@
 <html lang="en-US">
 <head>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    {{--        <link rel="stylesheet" href="{{ asset('css/app.css') }}">--}}
+    @push('css')
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/page-footer.css') }}">
+    @endpush
 
-    @hasSection('css')
-        @yield('css')
-    @endif
+    {{--  Render everything in the css stack, which will contain stylesheets pushed
+          by other templates  --}}
+    @stack('css')
 
     {{--  Bring the page title from resources/views/components/page-title  --}}
     <x-page-title></x-page-title>
@@ -21,5 +25,8 @@
 <div class="content-main">
     @yield('content')
 </div>
+
+{{--  Bring the page footer from resources/views/components/page-footer  --}}
+<x-page-footer></x-page-footer>
 </body>
 </html>

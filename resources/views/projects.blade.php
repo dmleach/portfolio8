@@ -2,9 +2,9 @@
 
 @section('page-title', 'Projects')
 
-@section('css')
+@push('css')
     <link rel="stylesheet" href="{{ asset('css/projects.css') }}">
-@endsection
+@endpush
 
 @section('content')
     <div class="projects-list">
