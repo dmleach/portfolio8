@@ -148,13 +148,16 @@ return [
         'end_date' => strtotime('8/1/2007'),
         'title' => 'Software Analyst',
         'skills' => [
-            [ 'technology' => 'Delphi', 'version' => '6.0' ],
+            [ 'technology' => 'Delphi', 'version' => '5.0' ],
             [ 'technology' => 'QuickReports' ],
+            [ 'technology' => 'T-SQL' ],
             [ 'technology' => 'Microsoft Reporting Services' ],
+            [ 'technology' => 'Microsoft SQL Server' ],
         ],
         'accomplishments' => [
-            'Maintained an insurance proposal and claims application suite',
+            'Developed and maintained an insurance proposal and claims application suite',
             'Created and maintained auto-generated reports',
+            'Created and maintained tables and stored procedures'
         ],
     ],
     [
@@ -168,6 +171,7 @@ return [
         'accomplishments' => [
             'Developed and maintained a quote generation application',
             'In technical lead analyst role, oversaw the day-to-day operations of a team of three developers',
+            'Led group reviews of designs, code, and testing plans',
             'In post-implementation lead analyst role, coordinated and managed repair of defect backlog',
             'Authored over 100 analysis, specification, and unit test documents',
             'Developed standard document templates for group use',
@@ -184,7 +188,8 @@ return [
         ],
         'accomplishments' => [
             'Analyzed, developed and maintained a suite of accounting practice management software',
-            'Acted as a resource for Crystal Reports expertise for multiple divisions and locations of the company',
+            'Acted as a training resource for Crystal Reports expertise for multiple divisions and locations of the company',
+            'Contributed to four released versions of our team\'s product'
         ],
     ],
     [
@@ -192,8 +197,14 @@ return [
         'title' => 'Owner',
         'start_date' => strtotime('8/1/2001'),
         'end_date' => strtotime('10/1/2002'),
+        'skills' => [
+            [ 'technology' => 'Delphi', 'version' => '5.0' ],
+            [ 'technology' => 'Crystal Reports', 'version' => '8.0' ],
+        ],
         'accomplishments' => [
             'Founded and managed a freelance software consulting practice',
+            'Analyzed, designed, coded, tested, and implemented bar code inventory software for Santee Cooper',
+            'Analyzed, designed, coded, and tested publicly distributed end-user inventory system for Maximum Rx Credit'
         ],
     ],
     [
@@ -201,15 +212,28 @@ return [
         'title' => 'Delphi Developer',
         'start_date' => strtotime('9/1/2000'),
         'end_date' => strtotime('8/1/2001'),
-
+        'skills' => [
+            [ 'technology' => 'Delphi', 'version' => '5.0' ],
+            [ 'technology' => 'Crystal Reports', 'version' => '8.0' ],
+        ],
+        'accomplishments' => [
+            'Developed and maintained a Windows-based debt collection software suite',
+            'Analyzed, designed, coded, and tested flat file import functionality',
+            'Acted as liaison between development and product validation teams'
+        ],
     ],
     [
         'company' => 'ClickChoice.com',
         'title' => 'Developer',
         'start_date' => strtotime('7/1/1999'),
         'end_date' => strtotime('8/1/2000'),
+        'skills' => [
+            [ 'technology' => 'Delphi', 'version' => '4.0' ],
+        ],
         'accomplishments' => [
-            'Developed and maintained home internet filtering software',
+            'Developed and maintained home internet filtering suite of applications',
+            'Worked closely with quality assurance to implement suggested changes',
+            'Designed, coded, and tested original Delphi components'
         ],
     ],
     [
@@ -217,8 +241,15 @@ return [
         'title' => 'Associate Developer',
         'start_date' => strtotime('6/1/1996'),
         'end_date' => strtotime('7/1/1999'),
+        'skills' => [
+            [ 'technology' => 'Delphi', 'version' => '2.0' ],
+            [ 'technology' => 'Microsoft Access', 'version' => '97' ],
+            [ 'technology' => 'Crystal Reports', 'version' => '6.5' ],
+        ],
         'accomplishments' => [
             'Designed and developed custom software for multiple small business clients',
+            'Managed many projects from initial design to final delivery',
+            'Primary contact for multiple clients'
         ],
     ],
 ];
