@@ -9,7 +9,8 @@
     "/css/project-details/standard.css": "/css/project-details/standard.css",
     "/css/projects/narrow.css": "/css/projects/narrow.css",
     "/css/projects/standard.css": "/css/projects/standard.css",
-    "/css/page-header.css": "/css/page-header.css",
+    "/css/page-header/narrow.css": "/css/page-header/narrow.css",
+    "/css/page-header/standard.css": "/css/page-header/standard.css",
     "/css/page-footer/narrow.css": "/css/page-footer/narrow.css",
     "/css/page-footer/standard.css": "/css/page-footer/standard.css"
 }

@@ -6,7 +6,8 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('css/page-footer/standard.css') }}">
         <link rel="stylesheet" media="screen and (max-width:500px)" href="{{ asset('css/page-footer/narrow.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/page-header.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/page-header/standard.css') }}">
+        <link rel="stylesheet" media="screen and (max-width:500px)" href="{{ asset('css/page-header/narrow.css') }}">
     @endpush
 
     {{--  Render everything in the css stack, which will contain stylesheets pushed
