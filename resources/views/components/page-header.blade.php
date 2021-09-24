@@ -3,6 +3,7 @@
 @endpush
 
 <div class="page-header">
+    <img class="page-header-signature" src="{{ asset('images/signature.png') }}" />
     <nav class="page-header-menu">
         <a class="page-header-menu-item" href="{{ url('/') }}">Home</a>
         <a class="page-header-menu-item" href="{{ url('/career') }}">Career</a>
