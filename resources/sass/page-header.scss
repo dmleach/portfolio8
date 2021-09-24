@@ -10,6 +10,7 @@
     flex-direction: row;
     justify-content: center;
     padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 .page-header-menu-item {
@@ -24,6 +25,12 @@
 
 .page-header-menu-item:hover {
     text-decoration: underline;
+}
+
+.page-header-signature {
+    height: 4em;
+    object-fit: contain;
+    width: auto;
 }
 
 .page-header-title {
