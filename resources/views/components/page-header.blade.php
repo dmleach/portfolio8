@@ -8,7 +8,7 @@
         <a class="page-header-menu-item" href="{{ url('/') }}">Home</a>
         <a class="page-header-menu-item" href="{{ url('/career') }}">Career</a>
         <a class="page-header-menu-item" href="{{ url('/projects') }}">Projects</a>
-        <a class="page-header-menu-item" href="{{ url('/skills') }}">Skills</a>
+{{--        <a class="page-header-menu-item" href="{{ url('/skills') }}">Skills</a>--}}
         {{--        <a class="page-header-menu-item" href="{{ url('/contact') }}">Contact</a>--}}
     </nav>
 
