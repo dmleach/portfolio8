@@ -23,3 +23,5 @@ Route::view('/projects', 'projects');
 Route::get('/projects/{projectName}',  function ($projectName = null) {
     return view('project-details', ['projectName' => $projectName]);
 });
+
+Route::view('/skills', 'skills');
