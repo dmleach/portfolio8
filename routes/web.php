@@ -24,4 +24,4 @@ Route::get('/projects/{projectName}',  function ($projectName = null) {
     return view('project-details', ['projectName' => $projectName]);
 });
 
-Route::view('/skills', 'skills');
+Route::get('/skills', [\App\Http\Controllers\SkillsController::class, 'index']);

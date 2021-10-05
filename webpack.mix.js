@@ -25,4 +25,6 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/projects/narrow.scss', 'public/css/projects')
     .sass('resources/sass/project-details/standard.scss', 'public/css/project-details')
     .sass('resources/sass/project-details/narrow.scss', 'public/css/project-details')
+    .sass('resources/sass/skills/standard.scss', 'public/css/skills')
+    .sass('resources/sass/skills/narrow.scss', 'public/css/skills')
 ;

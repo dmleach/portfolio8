@@ -19191,6 +19191,32 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/skills/standard.scss":
+/*!*********************************************!*\
+  !*** ./resources/sass/skills/standard.scss ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/sass/skills/narrow.scss":
+/*!*******************************************!*\
+  !*** ./resources/sass/skills/narrow.scss ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/sass/app.scss":
 /*!*********************************!*\
   !*** ./resources/sass/app.scss ***!
@@ -19566,6 +19592,8 @@ process.umask = function() { return 0; };
 /******/ 			"css/career/narrow": 0,
 /******/ 			"css/career/standard": 0,
 /******/ 			"css/app": 0,
+/******/ 			"css/skills/narrow": 0,
+/******/ 			"css/skills/standard": 0,
 /******/ 			"css/project-details/narrow": 0,
 /******/ 			"css/project-details/standard": 0,
 /******/ 			"css/projects/narrow": 0,
@@ -19623,20 +19651,22 @@ process.umask = function() { return 0; };
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/app.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/career/standard.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/career/narrow.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/home/standard.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/home/narrow.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/page-footer/standard.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/page-footer/narrow.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/page-header/standard.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/page-header/narrow.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/projects/standard.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/projects/narrow.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/project-details/standard.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/project-details/narrow.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/skills/narrow","css/skills/standard","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/skills/narrow","css/skills/standard","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/skills/narrow","css/skills/standard","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/career/standard.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/skills/narrow","css/skills/standard","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/career/narrow.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/skills/narrow","css/skills/standard","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/home/standard.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/skills/narrow","css/skills/standard","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/home/narrow.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/skills/narrow","css/skills/standard","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/page-footer/standard.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/skills/narrow","css/skills/standard","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/page-footer/narrow.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/skills/narrow","css/skills/standard","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/page-header/standard.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/skills/narrow","css/skills/standard","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/page-header/narrow.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/skills/narrow","css/skills/standard","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/projects/standard.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/skills/narrow","css/skills/standard","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/projects/narrow.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/skills/narrow","css/skills/standard","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/project-details/standard.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/skills/narrow","css/skills/standard","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/project-details/narrow.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/skills/narrow","css/skills/standard","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/skills/standard.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/home/narrow","css/home/standard","css/career/narrow","css/career/standard","css/app","css/skills/narrow","css/skills/standard","css/project-details/narrow","css/project-details/standard","css/projects/narrow","css/projects/standard","css/page-header/narrow","css/page-header/standard","css/page-footer/narrow","css/page-footer/standard"], () => (__webpack_require__("./resources/sass/skills/narrow.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

@@ -12,13 +12,13 @@ return [
             'Oddly, this is the first site I\'ve created that\'s responsive that didn\'t use a pre-made template. Responsiveness is just one of those things I never got the chance to really understand. Now that I see how to do it, I\'m surprised by how simple it is to create two different layouts that work well in tandem.',
         ],
         'technologies' => [
-            [ 'technology' => 'PHP', 'version' => '8.0' ],
-            [ 'technology' => 'Laravel', 'version' => '8' ],
-            [ 'technology' => 'CSS', 'version' => '3' ],
-            [ 'technology' => 'Flexbox' ],
-            [ 'technology' => 'Responsive web design'],
-            [ 'technology' => 'Apache', 'version' => '2.4' ],
-            [ 'technology' => 'Ubuntu', 'version' => '20.04' ],
+            [ 'name' => 'PHP', 'version' => '8.0' ],
+            [ 'name' => 'Laravel', 'version' => '8' ],
+            [ 'name' => 'CSS', 'version' => '3' ],
+            [ 'name' => 'Flexbox' ],
+            [ 'name' => 'Responsive web design'],
+            [ 'name' => 'Apache', 'version' => '2.4' ],
+            [ 'name' => 'Ubuntu', 'version' => '20.04' ],
         ],
         'links' => [
             'Github repository' => 'https://github.com/dmleach/portfolio8',
@@ -31,8 +31,8 @@ return [
             'short' => 'Object-oriented code for Screeps, an MMO strategy game for programmers',
         ],
         'technologies' => [
-            [ 'technology' => 'Javascript', 'version' => '7.4' ],
-            [ 'technology' => 'Node.js', 'version' => '8' ],
+            [ 'name' => 'Javascript', 'version' => '7.4' ],
+            [ 'name' => 'Node.js', 'version' => '8' ],
         ],
         'links' => [
             'Screeps' => 'https://screeps.com/',

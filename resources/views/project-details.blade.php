@@ -57,9 +57,9 @@
                             @continue
                         @endif
 
-                        @isset($technology['technology'])
+                        @isset($technology['name'])
                             <p class="project-details-technology">
-                                {{ $technology['technology'] }}
+                                {{ $technology['name'] }}
 
                                 @isset($technology['version'])
                                     <span class="project-details-technology-version">{{ $technology['version'] }}</span>

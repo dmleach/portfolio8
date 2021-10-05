@@ -8,12 +8,14 @@ return [
         'title' => 'Software Engineer II contracted to Facebook',
         'accomplishments' => [
             'Migrated video metrics from sunsetted system to new, more performant statistics engine',
+            'Designed and developed internal video metric migration auditing tool',
             'Improved test suite with more thorough and consistent coverage using computationally-generated test cases',
         ],
         'technologies' => [
             [ 'name' => 'Hack (strongly-typed PHP)', 'version' => '4' ],
             [ 'name' => 'PHPUnit' ],
-            [ 'name' => 'React' ],
+            [ 'name' => 'React', 'version' => 16 ],
+            [ 'name' => 'Flow' ]
         ],
         'systems' => [
             'Object-oriented programming',
