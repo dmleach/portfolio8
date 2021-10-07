@@ -6,29 +6,18 @@
 @endpush
 
 @section('content')
-    @php (
-        $frameColors = [
-            'home-content-frame-color-1',
-            'home-content-frame-color-2',
-            'home-content-frame-color-3',
-        ]
-    ) @endphp
-
-    @php ( $frameColorsAvailable = [] ) @endphp
-
     <div class="home-content">
-        @foreach (config('sitedata.home.items') as $item)
-            @if (count($frameColorsAvailable) == 0)
-                @php ( $frameColorsAvailable = $frameColors ) @endphp
-            @endif
+        @foreach ($tiles as $tile)
+            @isset($tile['text'])
+                @isset($tile['colorClass'])
+                    <div class="home-content-frame {{ $tile['colorClass'] }}">
+                @else
+                    <div class="home-content-frame">
+                @endisset
 
-            @php ( $idxColor = array_rand($frameColorsAvailable) ) @endphp
-
-            <div class="home-content-frame {{ $frameColorsAvailable[$idxColor] }}">
-                <p class="home-content-text">{{ $item }}</p>
-            </div>
-
-            @php ( array_splice($frameColorsAvailable, $idxColor, 1) )
+                    <p class="home-content-text">{{ $tile['text'] }}</p>
+                </div>
+            @endisset
         @endforeach
     </div>
 @endsection
