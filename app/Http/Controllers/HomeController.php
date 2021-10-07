@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 class HomeController extends Controller
 {
+    public const TILES_CONFIG_KEY = 'sitedata.home.tiles';
+
     public static function getTiles($tilesConfig): array
     {
         $tilesText = $tilesConfig['text'] ?? [];
@@ -35,7 +37,7 @@ class HomeController extends Controller
 
     public function index() {
         return view('home', [
-            'tiles' => self::getTiles(config('sitedata.home.tiles', [])),
+            'tiles' => self::getTiles(config(self::TILES_CONFIG_KEY, [])),
         ]);
     }
 }

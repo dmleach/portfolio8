@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase;
 
 class HomeControllerTest extends TestCase
 {
-    public function provideGetTiles()
+    public function provideGetTiles(): array
     {
         return [
             'Multiple text, multiple colors' => [
